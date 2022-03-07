@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="form.css" />
+  </head>
+  <style>
+    table {
+      border: 2px solid black;
+      background-color: aliceblue;
+    }
+  </style>
+  <body>
+    <h1>Form Design Assignment</h1>
+    <!--  form>table>tr*15>td*2    -->
+    <form action="">
+      <table width="50%">
+        <tr>
+          <td class="heading">First Name</td>
+          <td>
+            <input type="text" placeholder="Enter first name" />
+          </td>
+        </tr>
+        <tr>
+          <td class="heading">Last Name</td>
+          <td><input type="text" placeholder="Enter Last name" /></td>
+        </tr>
+        <tr>
+          <td class="heading">Email</td>
+          <td><input type="email" placeholder="abc@gmail.com" /></td>
+        </tr>
+        <tr>
+          <td class="heading">Mobile Number</td>
+          <td><input type="number" min="1000000000" max="9999999999" /></td>
+        </tr>
+        <tr>
+          <td class="heading">Gender</td>
+          <td>
+            <input type="radio" name="gender" checked />Male
+            <input type="radio" name="gender" />Female
+          </td>
+        </tr>
+        <tr>
+          <td class="heading">Date of Birth</td>
+          <td><input type="date" /></td>
+        </tr>
+        <tr>
+          <td class="heading">Address</td>
+          <td><textarea name="" id="" cols="25" rows="5"></textarea></td>
+        </tr>
+        <tr>
+          <td class="heading">Qualification</td>
+          <td>
+            <select name="" id="">
+              <option value="">SSC</option>
+              <option value="">HSC</option>
+              <option value="">Diploma</option>
+              <option value="" selected>BTech</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td rowspan="4" class="heading">Specilization</td>
+          <td><input type="checkbox" />Computer Science</td>
+        </tr>
+        <tr>
+          <td><input type="checkbox" />Information Technology</td>
+        </tr>
+        <tr>
+          <td><input type="checkbox" />Electronics</td>
+        </tr>
+        <tr>
+          <td><input type="checkbox" />Mechanical Engineering</td>
+        </tr>
+        <tr>
+          <td class="heading">Password</td>
+          <td><input type="password" /></td>
+        </tr>
+        <tr>
+          <td><input type="Submit" value="REGISTER" /></td>
+          <td><input type="reset" value="RESET" /></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+        </tr>
+      </table>
+    </form>
+  </body>
+</html>
+  9  index.html 
